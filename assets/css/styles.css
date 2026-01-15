@@ -351,3 +351,75 @@ a {
     content: "×";
   }
 }
+
+@media (max-width: 43rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .main-content {
+    padding: 4rem 2rem;
+  }
+
+  /* Ajuste da Intro */
+  .intro-txt-content h2 {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .intro-txt-content p {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .intro-img {
+    order: -1;
+    margin-bottom: 2rem;
+  }
+
+  .job-txt h2 {
+    font-size: 4rem;
+    justify-content: center;
+  }
+
+  .txt-projeto {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .grid-gallery {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .gallery h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .gallery p {
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+
+  .contact-txt h2 {
+    font-size: 3rem;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .contact-item a {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .menu-content h1 a img {
+    height: 5rem;
+    width: 5rem;
+  }
+}
